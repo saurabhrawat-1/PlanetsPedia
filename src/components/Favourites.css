@@ -1,0 +1,22 @@
+.favourite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  height: 100vh;
+  color: gray;
+}
+
+.favourite__header {
+  display: grid;
+  place-items: center;
+  width: 70%;
+  padding: 20px;
+  border-bottom: 1px solid rgba(249, 249, 249, 0.1);
+}
+
+.favourite__list {
+  width: 70%;
+  height: 20vh;
+  margin-top: 20px;
+}

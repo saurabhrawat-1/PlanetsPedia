@@ -1,0 +1,8 @@
+.app {
+  background: black;
+  overflow: scroll;
+}
+
+.app::-webkit-scrollbar {
+  display: none;
+}

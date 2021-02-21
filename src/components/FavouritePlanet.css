@@ -1,0 +1,43 @@
+.favourite__planet {
+  display: flex;
+  padding: 20px;
+  width: 90%;
+}
+
+.favourite__planet > img {
+  object-fit: contain;
+  height: 200px;
+  animation-name: rotate;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
+
+.favourite__planetInfo {
+  margin-left: 50px;
+}
+
+.planet__favourite > span {
+  margin-top: 10px;
+}
+
+.favourite__planetInfo > h2 {
+  margin-bottom: 10px;
+}
+
+.planet__favourite > .MuiSvgIcon-root {
+  margin-top: 10px;
+  margin-left: 10px !important;
+}
+
+.red {
+  color: red;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
